@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FDDAFD"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:text="GRAPHIC PRIMITIVES"
+        android:layout_marginTop="40sp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="@color/purple_500"/>
+    <Button
+        android:id="@+id/primitive"
+        android:backgroundTint="#A13AD8"
+        android:layout_width="match_parent"
+        android:layout_height="65sp"
+        android:text="SHAPES"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_margin="25sp"
+        />
+    <Button
+        android:id="@+id/animation_btn"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="65sp"
+        android:backgroundTint="#B55EE3"
+        android:layout_margin="25sp"
+        android:text="ANIMATION"
+        android:textColor="@color/black"
+        android:textSize="23sp" />
+    <Button
+        android:id="@+id/transformBtn"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="65sp"
+        android:backgroundTint="#C77CEF"
+        android:layout_margin="25sp"
+        android:text="TRANSFORMATION"
+        android:textColor="@color/black"
+        android:textSize="23sp" />
+    <Button
+        android:id="@+id/car_btn"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="65sp"
+        android:backgroundTint="#D696F8"
+        android:layout_margin="25sp"
+        android:text="CAR ANIMATION"
+        android:textColor="@color/black"
+        android:textSize="23sp" />
+</LinearLayout>

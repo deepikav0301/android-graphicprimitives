@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AABCCF"
+    tools:context=".Transformation">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:gravity="center|top">
+
+        <Button
+            android:id="@+id/rotate_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="10sp"
+            android:backgroundTint="@color/purple_700"
+            android:text="ROTATE"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/zoomin_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginEnd="10sp"
+            android:backgroundTint="@color/purple_700"
+            android:text="ZOOM IN"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/zoomout_button"
+            android:layout_width="92sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rotate_button"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="-62dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10sp"
+            android:layout_toEndOf="@+id/zoomin_button"
+            android:layout_toRightOf="@+id/zoomin_button"
+            android:backgroundTint="@color/purple_700"
+            android:text="ZOOM OUT"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/amongus_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30sp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="250sp"
+        android:layout_marginEnd="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginBottom="90sp"
+        android:contentDescription="TODO" />
+
+</RelativeLayout>
